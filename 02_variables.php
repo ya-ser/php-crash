@@ -48,8 +48,11 @@ echo 5 + 5;
 echo 10 - 6;
 echo 5 * 10;
 echo 10 / 2;
+echo 10 % 3;
 
 // Constants - Cannot be changed
+// left side is the name of the variable, right side is value
+// its basically const host = 'localhost';
 define('HOST', 'localhost');
 define('USER', 'root');
 
